@@ -1,0 +1,21 @@
+input {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1.6rem;
+  
+
+}
+
+.input-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+
+}

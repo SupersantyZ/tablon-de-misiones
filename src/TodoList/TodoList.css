@@ -1,0 +1,29 @@
+ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-list-counter {
+  display: flex;
+  padding: 4rem;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.x {
+  cursor: pointer;
+  font-size: 3rem;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.x:hover {
+  color: red;
+}

@@ -1,0 +1,38 @@
+.close-icon {
+  fill: grey;
+}
+
+.icon-container-delete:hover .close-icon {
+  fill: red;
+}
+
+.icon-container-check:hover .check-icon {
+  fill: rgb(0, 255, 13);
+}
+
+
+.icon-container {
+  position: relative;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+  height: 4.8rem;
+  width: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-check--active {
+  color: #01f30d;
+}
+
+
+.icon-container-check {
+  color: #01f30d; 
+}
+
+
+.icon-container-check:hover .icon-check {
+  color: #01f30d;
+}
